@@ -1,0 +1,9 @@
+[Unit]
+Description = Vasilenko
+After = network.target
+
+[Service]
+ExecStart = /home/vagrant/beeper.sh
+
+[Install]
+WantedBy = multi-user.target
